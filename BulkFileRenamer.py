@@ -33,5 +33,5 @@ for filename in filenames:
 		pass
 	else:
 		filenm, fileext = os.path.splitext(filename)
-		os.rename(os.path.join(path, filename), os.path.join(path, namefile + str(i) + fileext))
+		os.rename(os.path.join(path, filename), os.path.join(path, namefile + ' ' + str(i) + fileext))
 		i = i + 1
